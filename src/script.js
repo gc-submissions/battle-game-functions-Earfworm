@@ -77,7 +77,7 @@ const getGrade = (grade) => {
     } else if (grade <= 40) {
         return "F";
     } else {
-        return "Please each a number 0 through 100";
+        return "Please enter a number 0 through 100";
     }
 }
 
